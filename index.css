@@ -1,0 +1,25 @@
+.postdiv{
+ margin: auto;
+ border: 1px solid green;
+ width: fit-content;
+}
+#containerTodo{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    border: 3px solid gray;
+    width: 40%;
+}
+#containerTodo>div{
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  align-items: center;
+  justify-items: center;
+  
+}
+button{
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+}
